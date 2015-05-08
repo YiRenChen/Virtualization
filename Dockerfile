@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM debian:jessie
 MAINTAINER YRC <nthuyirenchen@gmail.com>
 RUN apt-get update
 RUN apt-get install -y gcc
